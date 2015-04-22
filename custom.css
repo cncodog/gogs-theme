@@ -1,0 +1,208 @@
+/*General*/
+/*----------------------------------------------*/
+
+html {
+    background-color: #FAFAFA;
+}
+
+#footer {
+    background-color: transparent;
+    border-top: none;
+}
+
+a, .text-link {
+  color: #156DCB;
+}
+
+/*Header*/
+/*----------------------------------------------*/
+#header {
+    background-color: #E0E0E0;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(50, 50, 50, .25);
+    -moz-box-shadow: 0 1px 1px 0 rgba(50, 50, 50, .25);
+    box-shadow: 0 1px 1px 0 rgba(50, 50, 50, .25);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+#header > .menu-line > li > a {
+    color: #888888;
+    font-weight: 100;
+}
+
+#header > .menu-line > li > a:hover {
+    background-color: #D4D4D4;
+    color: #5D5D5D;
+}
+
+#header > .menu-line > li.current > a {
+    color: #595959;
+    font-weight: bold;
+}
+
+#header-nav-logo {
+  display: none;
+}
+
+#admin-wrapper,
+#setting-wrapper,
+#org-home-header,
+#user-profile-page,
+#org-header,
+#repo-wrapper,
+#dashboard-header  {
+    margin-top: 45px;
+}
+
+/*Drop-downs*/
+/*----------------------------------------------*/
+
+.menu-down a, #dashboard-new-repo-menu a {
+    color: #888888;
+    font-weight: 100;
+}
+
+ul.menu-down, #dashboard-new-repo-menu, #dashboard-selection-menu > .drop-down {
+    border: none;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(50, 50, 50, .25);
+    -moz-box-shadow: 0 1px 1px 0 rgba(50, 50, 50, .25);
+    box-shadow: 0 1px 1px 0 rgba(50, 50, 50, .25);
+}
+
+.drop > .drop-down {
+  border: 0;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(50, 50, 50, .25);
+  -moz-box-shadow: 0 1px 1px 0 rgba(50, 50, 50, .25);
+  box-shadow: 0 1px 1px 0 rgba(50, 50, 50, .25);
+}
+
+#footer-lang .drop-down {
+   border: 0;
+   box-shadow: none;
+}
+
+/*Card-like Styling*/
+/*----------------------------------------------*/
+
+.panel .panel-header {
+    padding: 1.5em 1.5em;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.panel {
+    border: none;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(50, 50, 50, .25);
+    -moz-box-shadow: 0 1px 1px 0 rgba(50, 50, 50, .25);
+    box-shadow: 0 1px 1px 0 rgba(50, 50, 50, .25);
+}
+
+#dashboard-sidebar-menu > li {
+  border: none;
+  float: left;
+  margin-right: 0;
+  border-bottom: 1px solid #EAEAEA;
+  background-color: white;
+  border-right: 1px solid #EAEAEA;
+}
+
+#dashboard-news, 
+#org-repo-list {
+  margin: 0;
+  padding: 20px;
+  background-color: white;
+  border: none;
+  border-radius: .3em;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(50, 50, 50, .25);
+  -moz-box-shadow: 0 1px 1px 0 rgba(50, 50, 50, .25);
+  box-shadow: 0 1px 1px 0 rgba(50, 50, 50, .25);
+}
+
+.menu-vertical {
+  padding: 10px 0;
+  background-color: white;
+  border: none;
+  border-radius: .3em;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(50, 50, 50, .25);
+  -moz-box-shadow: 0 1px 1px 0 rgba(50, 50, 50, .25);
+  box-shadow: 0 1px 1px 0 rgba(50, 50, 50, .25);
+}
+
+#setting-menu li.current a {
+  border-left: 2px solid #156DCB;
+}
+
+#dashboard > #dashboard-news {
+  margin: 0 20px;
+  width: calc(66.67% - 80px)!important;
+}
+
+.setting-content {
+  margin-left: 20px;
+}
+
+#dashboard-news .news {
+  margin-right: 0;
+}
+
+#org-home-repo-list #org-repo-list {
+  margin-top: 10px;
+}
+
+#org-repo-list .org-repo-item {
+  border-top: 0;
+  border-bottom: 1px solid #eee;
+}
+#org-repo-list .org-repo-item:last-child,
+#dashboard-news .news:last-child{
+  border: 0;
+}
+
+/*Subheader navigations*/
+/*----------------------------------------------*/
+
+#dashboard-header > .menu-line > li.right .current,
+#profile-header li .current {
+  border-bottom: 2px solid #156DCB;
+}
+
+#dashboard-header > .menu-line > li.right > a:hover,
+#profile-header li a:hover,
+#org-header > div > .menu-line > li.right > a:hover {
+  background-color: #F8F8F8;
+  color: #156DCB;
+}
+
+/*Buttons*/
+/*----------------------------------------------*/
+
+.btn-green, .btn-blue {
+  background-color: #156DCB;
+  border: 1px solid #156DCB;
+}
+
+.btn-green:hover, .btn-blue:hover {
+  background-color: #3184DD;
+}
+
+.btn-gray {
+  border: none;
+}
+
+/*Images*/
+/*----------------------------------------------*/
+
+.org-header img {
+  padding-right: 0;
+  margin-right: 20px;
+  border-radius: 4px;
+}
+
+img.avatar-30 {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
